@@ -1,42 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <link rel="shortcut icon" href="assets/img/instaicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Instagram</title>
 </head>
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="assets/img/celular.png" alt="Celular">
-        </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="assets/img/InstagramLogo.png" class="instagram-logo" alt="logo">
-                <div class="profile-photo">
-                    <img src="assets/img/fotodeperfil.jpg" alt="foto de perfil">
+    <div class="container">
+        <main>
+            <div class="content">
+                <div class="smartphone">
+                    <div class="slider">
+                        <img src="assets/img/slider/6f03eb85463c.jpg">
+                        <img src="assets/img/slider/842fe5699220.jpg">
+                        <img src="assets/img/slider/d6bf0c928b5a.jpg">
+                        <img src="assets/img/slider/f0c687aa6ec2.jpg">
+                    </div>
                 </div>
-                <a href="#" class="instagram-login">Continue como Oberdan</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é Oberdan?</p>
-                <p class="notaccount">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                <div class="login-form">
+                    <div class="form">
+                        <h1 class="logo">Instagram</h1>
+                        <form action="POST">
+                            <input type="text" name="username" id="username" placeholder="Telefpne, nome do usuário ou email">
+                            <input type="password" name="password" id="password" placeholder="Senha">
+                            <button type="submit">Entrar</button>
+                        </form>
+                        <hr class="hr-text" data-content="OU"/>
+                        <button class="facebook-connect" type="button">
+                            <span class="face-icon"></span>
+                            <span class="face-text">Entrar com o Facebook</span>
+                        </button>
+                        <a href="#">Esqueceu a senha</a>
+                    </div>
+                    <div class="register">
+                        <p>
+                            Não tem uma conta?
+                            <a class="register-link" href="/accounts/emailsignup" >Cadastre-se</a>
+                        </p>
+                    </div>    
+                    <div class="app">
+                        <p>Obtenha o aplicativo.</p>
+                        <div>
+                            <a href="#">
+                                <img alt="Disponivel na app store" src="assets/img/68006a2bb372.png">
+                            </a>
+                            <a href="#">
+                                <img alt="Disponivel na google play" src="assets/img/2f2a0c05b2f3.png">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
+        <footer>.</footer>
     </div>
 </body>
 </html>
